@@ -1,547 +1,590 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vendé Comidas Listas Al Vacío — Ingresos desde tu Cocina</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Barlow:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
 
-<!-- ══════ ANNOUNCEMENT BAR ══════ -->
-<div class="ann-bar">
-  <div class="ann-pulse"></div>
-  <span>🔥 OFERTA DE LANZAMIENTO — Solo las primeras 100 copias a este precio</span>
-  <div class="ann-countdown" id="countdownBar">
-    <span id="cb-h">00</span>:<span id="cb-m">23</span>:<span id="cb-s">47</span>
-  </div>
-</div>
-
-<!-- ══════ NAV ══════ -->
-<nav id="nav">
-  <div class="nav-logo">VACÍO<span>PRO</span></div>
-  <a href="#precio" class="nav-cta">ACCEDER AHORA →</a>
-</nav>
-
-<!-- ══════ HERO ══════ -->
-<section class="hero">
-  <div class="hero-bg-text">SOUS VIDE</div>
-  
-  <div class="hero-inner">
-    <div class="hero-badge-row">
-      <span class="badge-live"><span class="live-dot"></span>+500 emprendedores ya empezaron</span>
-      <span class="badge-price">🔥 USD 16 — precio de lanzamiento</span>
-    </div>
-
-    <h1 class="hero-h1">
-      <span class="line-white">VENDÉ COMIDAS LISTAS</span>
-      <span class="line-orange">SELLADAS AL VACÍO</span>
-      <span class="line-white">Y GENERÁ INGRESOS</span>
-      <span class="line-accent">DESDE TU COCINA</span>
-    </h1>
-
-    <p class="hero-sub">
-      Producís hoy, tenés stock para toda la semana.<br>
-      <strong>Sin desperdiciar, sin apurarte, sin trabajar gratis.</strong>
-    </p>
-
-    <div class="hero-pills">
-      <span>📦 Equipamiento mínimo</span>
-      <span>🔥 Producción escalable</span>
-      <span>💰 Costos claros</span>
-      <span>📈 Sistema para vender</span>
-    </div>
-
-    <div class="hero-cta-block">
-      <a href="#precio" class="btn-fire">
-        <span class="btn-fire-text">QUIERO EMPEZAR AHORA</span>
-        <span class="btn-fire-sub">Acceso inmediato · USD 16 · Garantía 7 días</span>
-      </a>
-      <a href="#modulos" class="btn-outline-hero">Ver qué incluye ↓</a>
-    </div>
-
-    <div class="hero-trust">
-      <span>🔒 Pago seguro</span>
-      <span>⚡ Descarga inmediata</span>
-      <span>🛡️ Garantía 7 días sin preguntas</span>
+  <!-- ══════ ANNOUNCEMENT BAR ══════ -->
+  <div class="ann-bar">
+    <div class="ann-pulse"></div>
+    <span>🔥 OFERTA DE LANZAMIENTO — Solo las primeras 100 copias a este precio</span>
+    <div class="ann-countdown" id="countdownBar">
+      <span id="cb-h">00</span>:<span id="cb-m">23</span>:<span id="cb-s">47</span>
     </div>
   </div>
 
-  <div class="hero-right-panel">
-    <div class="video-container">
-      <video controls playsinline>
-        <source src="img/Coccion.mp4" type="video/mp4">
-      </video>
-      <div class="video-badge">🎬 Video de presentación</div>
-    </div>
+  <!-- ══════ NAV ══════ -->
+  <nav id="nav">
+    <div class="nav-logo">VACÍO<span>PRO</span></div>
+    <a href="#precio" class="nav-cta">ACCEDER AHORA →</a>
+  </nav>
 
-    <div class="stats-grid">
-      <div class="stat-item">
-        <div class="stat-big">6</div>
-        <div class="stat-label">Módulos completos</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-big">9</div>
-        <div class="stat-label">Fichas técnicas</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-big">+70</div>
-        <div class="stat-label">Páginas de contenido</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-big">∞</div>
-        <div class="stat-label">Acceso de por vida</div>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- ══════ HERO ══════ -->
+  <section class="hero">
+    <div class="hero-bg-text">SOUS VIDE</div>
 
-<!-- ══════ SOCIAL PROOF TICKER ══════ -->
-<div class="ticker-wrap">
-  <div class="ticker">
-    <span>✅ Marcelo R. de Córdoba ya recuperó su inversión en el mes 2</span>
-    <span>✅ Sandra L. de Bs.As. tiene 15 clientes fijos con el osobuco al Malbec</span>
-    <span>✅ Juan P. de Pinamar trabaja 3h donde antes trabajaba 12h</span>
-    <span>✅ Más de 500 emprendedores ya aplicaron el sistema</span>
-    <span>✅ Marcelo R. de Córdoba ya recuperó su inversión en el mes 2</span>
-    <span>✅ Sandra L. de Bs.As. tiene 15 clientes fijos con el osobuco al Malbec</span>
-    <span>✅ Juan P. de Pinamar trabaja 3h donde antes trabajaba 12h</span>
-    <span>✅ Más de 500 emprendedores ya aplicaron el sistema</span>
-  </div>
-</div>
+    <div class="hero-inner">
+      <div class="hero-badge-row">
+        <span class="badge-live"><span class="live-dot"></span>+500 emprendedores ya empezaron</span>
+        <span class="badge-price">🔥 USD 16 — precio de lanzamiento</span>
+      </div>
 
-<!-- ══════ DOLOR ══════ -->
-<section class="dolor">
-  <div class="dolor-inner">
-    <div class="dolor-left reveal">
-      <div class="section-tag">¿TE IDENTIFICÁS?</div>
-      <h2 class="section-h2">Querés producir y vender.<br><em>Pero no tenés el sistema.</em></h2>
-      <p class="dolor-lead">El problema no es por dónde empezar. Es no tener un sistema claro: equipamiento adecuado, números definidos, procesos seguros y una forma concreta de ofrecer lo que hacés. Esta guía reúne todo eso en un solo lugar.</p>
-    </div>
-    <div class="dolor-right reveal reveal-delay-1">
-      <div class="pain-card">
-        <div class="pain-icon">🤷</div>
-        <div>
-          <strong>No sabés qué equipo comprar</strong>
-          <p>Hay cientos de roners y envasadoras. Sin guía, comprás mal y perdés plata desde el primer día.</p>
-        </div>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">⚠️</div>
-        <div>
-          <strong>La seguridad alimentaria te genera dudas</strong>
-          <p>El sous vide mal aplicado puede ser peligroso. Sin el binomio tiempo/temperatura no podés vender con confianza.</p>
-        </div>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">💸</div>
-        <div>
-          <strong>No sabés cuánto cobrar</strong>
-          <p>Sin calcular mermas, costos indirectos y mano de obra, terminás trabajando gratis o regalando calidad.</p>
-        </div>
-      </div>
-      <div class="pain-card">
-        <div class="pain-icon">📦</div>
-        <div>
-          <strong>Tu producto se ve amateur</strong>
-          <p>El packaging y el etiquetado marcan la diferencia entre lo que se vende y lo que se regala.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      <h1 class="hero-h1">
+        <span class="line-white">VENDÉ COMIDAS LISTAS</span>
+        <span class="line-orange">SELLADAS AL VACÍO</span>
+        <span class="line-white">Y GENERÁ INGRESOS</span>
+        <span class="line-accent">DESDE TU COCINA</span>
+      </h1>
 
-<!-- ══════ MÓDULOS ══════ -->
-<section class="modulos" id="modulos">
-  <div class="modulos-inner">
-    <div class="section-tag text-center reveal">EL SISTEMA COMPLETO</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Todo lo que necesitás para<br><em>arrancar y escalar</em></h2>
-    <p class="section-p text-center reveal reveal-delay-2">Seis módulos que cubren el camino completo: desde encender el roner por primera vez hasta vender tu primer lote con margen real.</p>
+      <p class="hero-sub">
+        Producís hoy, tenés stock para toda la semana.<br>
+        <strong>Sin desperdiciar, sin apurarte, sin trabajar gratis.</strong>
+      </p>
 
-    <div class="modulos-grid">
-      <div class="mod-card reveal">
-        <div class="mod-num">01</div>
-        <div class="mod-emoji">🔧</div>
-        <h3>Equipamiento y Tecnología</h3>
-        <p>Tabla comparativa de roners, envasadoras de succión vs. cámara, bolsas gofradas vs. alta temperatura.</p>
+      <div class="hero-pills">
+        <span>📦 Equipamiento mínimo</span>
+        <span>🔥 Producción escalable</span>
+        <span>💰 Costos claros</span>
+        <span>📈 Sistema para vender</span>
       </div>
-      <div class="mod-card reveal reveal-delay-1">
-        <div class="mod-num">02</div>
-        <div class="mod-emoji">🔬</div>
-        <h3>Seguridad Alimentaria</h3>
-        <p>Registro PUPA paso a paso, binomio tiempo/temperatura por proteína, protocolo de shock térmico sin abatidor y las 8 BPM esenciales.</p>
-        <span class="mod-tag">Cumplimiento legal incluido</span>
-      </div>
-      <div class="mod-card reveal reveal-delay-2">
-        <div class="mod-num">03</div>
-        <div class="mod-emoji">🌡️</div>
-        <h3>Técnicas de Cocción</h3>
-        <p>Sous vide puro, cocción tradicional + vacío, pre-sellado vs. post-sellado y la reacción de Maillard aplicada al producto envasado.</p>
-        <span class="mod-tag">Tabla completa T° y tiempos</span>
-      </div>
-      <div class="mod-card reveal">
-        <div class="mod-num">04</div>
-        <div class="mod-emoji">♨️</div>
-        <h3>Protocolo de Regeneración</h3>
-        <p>Baño maría técnico, microondas, sartén y reducción de salsas. Texto modelo para etiqueta de regeneración listo para copiar.</p>
-        <span class="mod-tag">Incluye guía para el cliente</span>
-      </div>
-      <div class="mod-card reveal reveal-delay-1">
-        <div class="mod-num">05</div>
-        <div class="mod-emoji">📋</div>
-        <h3>Recetario Maestro</h3>
-        <p>9 fichas técnicas completas con ingredientes, paso a paso y consejo del maestro. Desde bondiola 24h hasta chutney de tomate y manzana.</p>
-        <span class="mod-tag">9 fichas listas para producir</span>
-      </div>
-      <div class="mod-card reveal reveal-delay-2">
-        <div class="mod-num">06</div>
-        <div class="mod-emoji">📊</div>
-        <h3>Costos, Precios y Ventas</h3>
-        <p>Fórmula de costeo con mermas, tabla de precios por canal, speech de ventas, canales de comercialización y hoja de ruta en 3 etapas.</p>
-        <span class="mod-tag">De lo casero a lo profesional</span>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ══════ RECETARIO ══════ -->
-<section class="recetario">
-  <div class="recetario-inner">
-    <div class="recetario-left reveal">
-      <div class="section-tag">RECETARIO MAESTRO</div>
-      <h2 class="section-h2">9 fichas técnicas.<br>Cada una, <em>un producto listo para vender.</em></h2>
-      <p>No son recetas de Instagram. Son fichas de producción con ingredientes, porcentajes de sal, mermas esperadas, tiempos y temperaturas exactas.</p>
-      <a href="#precio" class="btn-fire" style="margin-top:2rem; display:inline-flex;">
-        <span class="btn-fire-text">ACCEDER AL RECETARIO →</span>
-      </a>
-    </div>
-    <div class="recetario-right reveal reveal-delay-1">
-      <div class="recipe-item">
-        <span class="recipe-name">Bondiola Despechada (Pulled Pork)</span>
-        <div class="recipe-tags"><span class="tag-temp">74°C</span><span class="tag-time">24 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Osobuco al Malbec Premium</span>
-        <div class="recipe-tags"><span class="tag-temp">80°C</span><span class="tag-time">18 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Goulash de Ternera</span>
-        <div class="recipe-tags"><span class="tag-temp">82°C</span><span class="tag-time">12 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Pechuga de Pollo con Vegetales</span>
-        <div class="recipe-tags"><span class="tag-temp">63.5°C</span><span class="tag-time">2 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Ribs de Cerdo BBQ Master</span>
-        <div class="recipe-tags"><span class="tag-temp">70°C</span><span class="tag-time">12 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Pollo al Verdeo con Salsa Cremosa</span>
-        <div class="recipe-tags"><span class="tag-temp">74°C</span><span class="tag-time">4 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Entraña al Chimichurri</span>
-        <div class="recipe-tags"><span class="tag-temp">54°C</span><span class="tag-time">3 hs</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Guiso de Lentejas de Bodegón</span>
-        <div class="recipe-tags"><span class="tag-temp">Olla</span><span class="tag-time">90 min</span></div>
-      </div>
-      <div class="recipe-item">
-        <span class="recipe-name">Chutney de Tomate y Manzana</span>
-        <div class="recipe-tags"><span class="tag-temp">Conserva</span><span class="tag-time">60 min</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════ TABLA COMPARATIVA ══════ -->
-<section class="tabla-section">
-  <div class="tabla-inner">
-    <div class="section-tag text-center reveal">LOS NÚMEROS NO MIENTEN</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Lo que tardás ahora<br><em>vs. lo que tardás con el sistema</em></h2>
-    <table class="comp-table reveal reveal-delay-2">
-      <thead>
-        <tr>
-          <th>Tarea</th>
-          <th class="th-sin">❌ Sin sistema</th>
-          <th class="th-con">✅ Con Vacío + Sous Vide</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Producir 10 porciones de bondiola</td>
-          <td class="td-sin">3-4 horas activas</td>
-          <td class="td-con">30 min + 24h sin vigilar</td>
-        </tr>
-        <tr>
-          <td>Vida útil del producto cocido</td>
-          <td class="td-sin">2-3 días en heladera</td>
-          <td class="td-con">21-30 días refrigerado</td>
-        </tr>
-        <tr>
-          <td>Distribución al cliente</td>
-          <td class="td-sin">Inmediata o se pierde</td>
-          <td class="td-con">Hasta 6 meses en freezer</td>
-        </tr>
-        <tr>
-          <td>Pérdida por sobreproducción</td>
-          <td class="td-sin">Alta (30-40%)</td>
-          <td class="td-con">Casi cero</td>
-        </tr>
-        <tr>
-          <td>Ticket promedio por porción</td>
-          <td class="td-sin">Bajo (precio de comida común)</td>
-          <td class="td-con">2x-3x (categoría premium)</td>
-        </tr>
-        <tr>
-          <td>Tiempo para llegar al cliente</td>
-          <td class="td-sin">Cocción fresca: 2-3 horas</td>
-          <td class="td-con">Regeneración: 15 minutos</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<!-- ══════ PARA QUIEN ══════ -->
-<section class="para-quien">
-  <div class="para-quien-inner">
-    <div class="section-tag text-center reveal">¿ESTE SISTEMA ES PARA VOS?</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Si querés <em>ordenar, mejorar o monetizar</em><br>lo que hacés en cocina — sí.</h2>
-    <div class="quien-grid reveal reveal-delay-2">
-      <div class="quien-card">
-        <div class="quien-ico">🚀</div>
-        <h4>Querés empezar pero no sabés por dónde</h4>
-        <p>Tenés la idea, pero te falta un sistema claro para pasar a la acción sin perder tiempo ni cometer errores básicos.</p>
-      </div>
-      <div class="quien-card">
-        <div class="quien-ico">🍖</div>
-        <h4>Querés mejorar la calidad de lo que ofrecés</h4>
-        <p>Buscás resultados más consistentes, mejor presentación y un diferencial real que se note en el producto final.</p>
-      </div>
-      <div class="quien-card">
-        <div class="quien-ico">💰</div>
-        <h4>Querés generar o sumar ingresos</h4>
-        <p>Ya sea como ingreso principal o complemento, necesitás una forma ordenada y replicable de producir y vender.</p>
-      </div>
-      <div class="quien-card">
-        <div class="quien-ico">📦</div>
-        <h4>Querés escalar lo que ya hacés</h4>
-        <p>Si ya vendés, este sistema te ayuda a mejorar procesos, optimizar tiempos y profesionalizar tu producción.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════ TESTIMONIOS ══════ -->
-<section class="testi">
-  <div class="testi-inner">
-    <div class="section-tag text-center reveal">RESULTADOS REALES</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Quienes ya lo <em>aplicaron</em></h2>
-    <div class="testi-grid reveal reveal-delay-2">
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"Empecé con un roner de USD 100 y una envasadora de succión. En el segundo mes ya había recuperado la inversión. El módulo de costos me cambió la cabeza: estaba cobrando menos de la mitad de lo que debía."</p>
-        <div class="testi-who">
-          <div class="testi-av">MR</div>
-          <div><strong>Marcelo R.</strong><br><small>Emprendedor gastronómico · Córdoba</small></div>
-        </div>
-      </div>
-      <div class="testi-card featured">
-        <div class="featured-badge">⭐ MÁS POPULAR</div>
-        <div class="testi-stars">★★★★★</div>
-        <p>"La ficha técnica del osobuco al Malbec sola vale el precio del libro. Tengo 15 clientes fijos que lo piden cada semana. La regeneración en sartén que explica el módulo 4 los dejó boquiabiertos."</p>
-        <div class="testi-who">
-          <div class="testi-av">SL</div>
-          <div><strong>Sandra L.</strong><br><small>Cocinera artesanal · Buenos Aires</small></div>
-        </div>
-      </div>
-      <div class="testi-card">
-        <div class="testi-stars">★★★★★</div>
-        <p>"Trabajaba 12 horas para producir lo que ahora produzco en 3. El roner cocina de noche, yo envaso a la mañana. El módulo de seguridad alimentaria me dio la confianza para tramitar el PUPA y vender sin miedo."</p>
-        <div class="testi-who">
-          <div class="testi-av">JP</div>
-          <div><strong>Juan P.</strong><br><small>Productor artesanal · Pinamar</small></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════ BONUS ══════ -->
-<section class="bonus">
-  <div class="bonus-inner">
-    <div class="section-tag text-center reveal">SIN COSTO ADICIONAL</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Los bonus que <em>completan el sistema</em></h2>
-    <div class="bonus-grid">
-      <div class="bonus-card reveal">
-        <div class="bonus-ico">📊</div>
-        <div class="bonus-label">BONUS 1</div>
-        <h4>Tabla completa de temperaturas y tiempos sous vide</h4>
-        <p>Referencia rápida con todas las proteínas: desde entraña a 54°C hasta muslo de pollo a 74°C. Imprimible.</p>
-      </div>
-      <div class="bonus-card reveal reveal-delay-1">
-        <div class="bonus-ico">💰</div>
-        <div class="bonus-label">BONUS 2</div>
-        <h4>Planilla de costeo por lote (estructura lista)</h4>
-        <p>La fórmula completa: costo directo, indirecto, mano de obra y precio de venta por canal.</p>
-      </div>
-      <div class="bonus-card reveal reveal-delay-2">
-        <div class="bonus-ico">🏷️</div>
-        <div class="bonus-label">BONUS 3</div>
-        <h4>Texto modelo para etiqueta de regeneración</h4>
-        <p>Redactado, revisado y listo para copiar. Cumple con los requisitos de SENASA/ANMAT.</p>
-      </div>
-      <div class="bonus-card reveal">
-        <div class="bonus-ico">📚</div>
-        <div class="bonus-label">BONUS 4</div>
-        <h4>10 libros de cocina gratis</h4>
-        <p>Charcutería, control de costos, Le Cordon Bleu, Cocina Molecular, Cocina China, Panes del mundo y más.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════ PRECIO ══════ -->
-<section class="precio" id="precio">
-  <div class="precio-inner">
-    <div class="precio-left reveal">
-      <div class="section-tag">INVERSIÓN</div>
-      <h2 class="section-h2">Un pago único.<br><em>Acceso para siempre.</em></h2>
-      <div class="countdown-box">
-        <div class="cd-label">⏳ PRECIO SUBE EN:</div>
-        <div class="cd-timer">
-          <div class="cd-unit"><span id="cd-h">00</span><small>HRS</small></div>
-          <div class="cd-sep">:</div>
-          <div class="cd-unit"><span id="cd-m">23</span><small>MIN</small></div>
-          <div class="cd-sep">:</div>
-          <div class="cd-unit"><span id="cd-s">47</span><small>SEG</small></div>
-        </div>
-      </div>
-      <ul class="incluye">
-        <li><span class="chk">✦</span> 6 módulos completos en PDF</li>
-        <li><span class="chk">✦</span> 9 fichas técnicas de recetas con temperaturas y tiempos</li>
-        <li><span class="chk">✦</span> BONO 1 — Libro de charcutería</li>
-        <li><span class="chk">✦</span> BONO 2 — Control de costos de alimentos y bebidas</li>
-        <li><span class="chk">✦</span> BONO 3 — El arte culinario para el profesional</li>
-        <li><span class="chk">✦</span> BONO 4 — Le Cordon Bleu</li>
-        <li><span class="chk">✦</span> BONO 5 — Cocina Molecular</li>
-        <li><span class="chk">✦</span> BONO 6 — El arte de la decoración en la comida</li>
-        <li><span class="chk">✦</span> BONO 7 — Arroces del mundo</li>
-        <li><span class="chk">✦</span> BONO 8 — Alimentación Vegana</li>
-        <li><span class="chk">✦</span> BONO 9 — Cocina China</li>
-        <li><span class="chk">✦</span> BONO 10 — Panes del mundo</li>
-      </ul>
-    </div>
-
-    <div class="precio-card reveal reveal-delay-1">
-      <div class="card-top">
-        <div class="card-eyebrow">Vacío + Sous Vide como Salida Laboral · Edición 2026</div>
-        <div class="price-was">Valor regular: <s>USD 45</s></div>
-        <div class="price-now">
-          <span class="price-currency">USD</span>
-          <span class="price-amount">16</span>
-        </div>
-        <div class="price-note">Pago único · Sin suscripción · Descarga inmediata</div>
-        <div class="discount-badge">AHORRÁS USD 29 — 64% OFF</div>
-      </div>
-      <div class="card-body">
-        <a href="https://pay.hotmart.com/L105398930J" target="_blank" class="btn-buy">
-          COMPRAR AHORA — USD 16
+      <div class="hero-cta-block">
+        <a href="#precio" class="btn-fire">
+          <span class="btn-fire-text">QUIERO EMPEZAR AHORA</span>
+          <span class="btn-fire-sub">Acceso inmediato · USD 16 · Garantía 7 días</span>
         </a>
-        <div class="trust-row">
-          <span>🔒 Pago seguro</span>
-          <span>⚡ Acceso inmediato</span>
-          <span>🛡️ Garantía 7 días</span>
+        <a href="#modulos" class="btn-outline-hero">Ver qué incluye ↓</a>
+      </div>
+
+      <div class="hero-trust">
+        <span>🔒 Pago seguro</span>
+        <span>⚡ Descarga inmediata</span>
+        <span>🛡️ Garantía 7 días sin preguntas</span>
+      </div>
+    </div>
+
+    <div class="hero-right-panel">
+      <div class="video-container">
+        <video controls playsinline>
+          <source src="img/Coccion.mp4" type="video/mp4">
+        </video>
+        <div class="video-badge">🎬 Video de presentación</div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-big">6</div>
+          <div class="stat-label">Módulos completos</div>
         </div>
-        <div class="guarantee-box">
-          <div class="g-icon">🛡️</div>
+        <div class="stat-item">
+          <div class="stat-big">9</div>
+          <div class="stat-label">Fichas técnicas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-big">+70</div>
+          <div class="stat-label">Páginas de contenido</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-big">∞</div>
+          <div class="stat-label">Acceso de por vida</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ SOCIAL PROOF TICKER ══════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>✅ Marcelo R. de Córdoba ya recuperó su inversión en el mes 2</span>
+      <span>✅ Sandra L. de Bs.As. tiene 15 clientes fijos con el osobuco al Malbec</span>
+      <span>✅ Juan P. de Pinamar trabaja 3h donde antes trabajaba 12h</span>
+      <span>✅ Más de 500 emprendedores ya aplicaron el sistema</span>
+      <span>✅ Marcelo R. de Córdoba ya recuperó su inversión en el mes 2</span>
+      <span>✅ Sandra L. de Bs.As. tiene 15 clientes fijos con el osobuco al Malbec</span>
+      <span>✅ Juan P. de Pinamar trabaja 3h donde antes trabajaba 12h</span>
+      <span>✅ Más de 500 emprendedores ya aplicaron el sistema</span>
+    </div>
+  </div>
+
+  <!-- ══════ DOLOR ══════ -->
+  <section class="dolor">
+    <div class="dolor-inner">
+      <div class="dolor-left reveal">
+        <div class="section-tag">¿TE IDENTIFICÁS?</div>
+        <h2 class="section-h2">Querés producir y vender.<br><em>Pero no tenés el sistema.</em></h2>
+        <p class="dolor-lead">El problema no es por dónde empezar. Es no tener un sistema claro: equipamiento adecuado,
+          números definidos, procesos seguros y una forma concreta de ofrecer lo que hacés. Esta guía reúne todo eso en
+          un solo lugar.</p>
+      </div>
+      <div class="dolor-right reveal reveal-delay-1">
+        <div class="pain-card">
+          <div class="pain-icon">🤷</div>
           <div>
-            <strong>Garantía 7 Días sin preguntas</strong>
-            <p>Si dentro de los 7 días sentís que no te aportó valor, te devolvemos el dinero. Sin burocracia.</p>
+            <strong>No sabés qué equipo comprar</strong>
+            <p>Hay cientos de roners y envasadoras. Sin guía, comprás mal y perdés plata desde el primer día.</p>
+          </div>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">⚠️</div>
+          <div>
+            <strong>La seguridad alimentaria te genera dudas</strong>
+            <p>El sous vide mal aplicado puede ser peligroso. Sin el binomio tiempo/temperatura no podés vender con
+              confianza.</p>
+          </div>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">💸</div>
+          <div>
+            <strong>No sabés cuánto cobrar</strong>
+            <p>Sin calcular mermas, costos indirectos y mano de obra, terminás trabajando gratis o regalando calidad.
+            </p>
+          </div>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">📦</div>
+          <div>
+            <strong>Tu producto se ve amateur</strong>
+            <p>El packaging y el etiquetado marcan la diferencia entre lo que se vende y lo que se regala.</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ══════ FAQ ══════ -->
-<section class="faq">
-  <div class="faq-inner">
-    <div class="section-tag text-center reveal">PREGUNTAS FRECUENTES</div>
-    <h2 class="section-h2 text-center reveal reveal-delay-1">Lo que necesitás saber<br><em>antes de comprar</em></h2>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿Necesito experiencia previa en cocina profesional?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">No. El libro está escrito para alguien que sabe cocinar bien en casa pero nunca trabajó en gastronomía comercial. Los protocolos están explicados paso a paso, con el "por qué" de cada uno, no solo el "cómo".</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿Cuánto necesito invertir para empezar?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">El Módulo 1 incluye un Kit de Inicio con presupuesto optimizado. Aprenderás a seleccionar el equipamiento necesario con una inversión mínima escalable: roner de inmersión, envasadora básica y accesorios esenciales priorizando la mejor relación calidad-precio.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿Puedo hacer esto desde mi cocina de casa?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">Sí. El sistema está pensado para producción a pequeña escala desde una cocina doméstica. Incluye un modelo práctico para empezar con bajo equipamiento, y cómo adaptar la producción al registro PUPA en Argentina.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿Funciona para cualquier país o solo en Argentina?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">Sí, funciona a nivel global. Las técnicas de cocción, envasado y conservación son universales. Lo que cambia es la regulación sanitaria de cada país — el libro te da la base técnica y operativa para que la adaptes donde estés.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿Cómo recibo el material después de comprar?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">Inmediatamente después de la compra recibís un email de Hotmart con el link de descarga del PDF. A los 8 días recibís los 10 bonos. Podés guardarlo en tu computadora, tablet o celular y acceder cuando quieras, sin internet.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-btn" onclick="toggleFaq(this)">
-          ¿El precio va a subir?
-          <span class="faq-ico">+</span>
-        </button>
-        <div class="faq-ans">El precio de lanzamiento de USD 16 es temporal. Una vez superadas las primeras 100 copias, el precio sube al valor regular de USD 45. Comprando hoy bloqueás el precio más bajo y recibís todas las actualizaciones futuras sin costo adicional.</div>
+  <!-- ══════ MÓDULOS ══════ -->
+  <section class="modulos" id="modulos">
+    <div class="modulos-inner">
+      <div class="section-tag text-center reveal">EL SISTEMA COMPLETO</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Todo lo que necesitás para<br><em>arrancar y escalar</em>
+      </h2>
+      <p class="section-p text-center reveal reveal-delay-2">Seis módulos que cubren el camino completo: desde encender
+        el roner por primera vez hasta vender tu primer lote con margen real.</p>
+
+      <div class="modulos-grid">
+        <div class="mod-card reveal">
+          <div class="mod-num">01</div>
+          <div class="mod-emoji">🔧</div>
+          <h3>Equipamiento y Tecnología</h3>
+          <p>Tabla comparativa de roners, envasadoras de succión vs. cámara, bolsas gofradas vs. alta temperatura.</p>
+        </div>
+        <div class="mod-card reveal reveal-delay-1">
+          <div class="mod-num">02</div>
+          <div class="mod-emoji">🔬</div>
+          <h3>Seguridad Alimentaria</h3>
+          <p>Registro PUPA paso a paso, binomio tiempo/temperatura por proteína, protocolo de shock térmico sin abatidor
+            y las 8 BPM esenciales.</p>
+          <span class="mod-tag">Cumplimiento legal incluido</span>
+        </div>
+        <div class="mod-card reveal reveal-delay-2">
+          <div class="mod-num">03</div>
+          <div class="mod-emoji">🌡️</div>
+          <h3>Técnicas de Cocción</h3>
+          <p>Sous vide puro, cocción tradicional + vacío, pre-sellado vs. post-sellado y la reacción de Maillard
+            aplicada al producto envasado.</p>
+          <span class="mod-tag">Tabla completa T° y tiempos</span>
+        </div>
+        <div class="mod-card reveal">
+          <div class="mod-num">04</div>
+          <div class="mod-emoji">♨️</div>
+          <h3>Protocolo de Regeneración</h3>
+          <p>Baño maría técnico, microondas, sartén y reducción de salsas. Texto modelo para etiqueta de regeneración
+            listo para copiar.</p>
+          <span class="mod-tag">Incluye guía para el cliente</span>
+        </div>
+        <div class="mod-card reveal reveal-delay-1">
+          <div class="mod-num">05</div>
+          <div class="mod-emoji">📋</div>
+          <h3>Recetario Maestro</h3>
+          <p>9 fichas técnicas completas con ingredientes, paso a paso y consejo del maestro. Desde bondiola 24h hasta
+            chutney de tomate y manzana.</p>
+          <span class="mod-tag">9 fichas listas para producir</span>
+        </div>
+        <div class="mod-card reveal reveal-delay-2">
+          <div class="mod-num">06</div>
+          <div class="mod-emoji">📊</div>
+          <h3>Costos, Precios y Ventas</h3>
+          <p>Fórmula de costeo con mermas, tabla de precios por canal, speech de ventas, canales de comercialización y
+            hoja de ruta en 3 etapas.</p>
+          <span class="mod-tag">De lo casero a lo profesional</span>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ══════ FINAL CTA ══════ -->
-<section class="final-cta">
-  <div class="final-inner reveal">
-    <div class="section-tag text-center">EL MOMENTO ES AHORA</div>
-    <h2 class="final-h2">El roner cocina<br><em>mientras vos dormís.</em></h2>
-    <p>Cada noche que el baño termostatado trabaja solo, tu producto gana valor. Cada bolsa bien envasada es un producto con 30 días de vida útil.</p>
-    <a href="https://pay.hotmart.com/L105398930J" target="_blank" class="btn-fire btn-fire-xl">
-      <span class="btn-fire-text">QUIERO EL SISTEMA — USD 16 ✦</span>
-      <span class="btn-fire-sub">✓ Acceso inmediato &nbsp;·&nbsp; ✓ Garantía 7 días &nbsp;·&nbsp; ✓ Precio de lanzamiento</span>
-    </a>
-  </div>
-</section>
+  <!-- ══════ RECETARIO ══════ -->
+  <section class="recetario">
+    <div class="recetario-inner">
+      <div class="recetario-left reveal">
+        <div class="section-tag">RECETARIO MAESTRO</div>
+        <h2 class="section-h2">9 fichas técnicas.<br>Cada una, <em>un producto listo para vender.</em></h2>
+        <p>No son recetas de Instagram. Son fichas de producción con ingredientes, porcentajes de sal, mermas esperadas,
+          tiempos y temperaturas exactas.</p>
+        <a href="#precio" class="btn-fire" style="margin-top:2rem; display:inline-flex;">
+          <span class="btn-fire-text">ACCEDER AL RECETARIO →</span>
+        </a>
+      </div>
+      <div class="recetario-right reveal reveal-delay-1">
+        <div class="recipe-item">
+          <span class="recipe-name">Bondiola Despechada (Pulled Pork)</span>
+          <div class="recipe-tags"><span class="tag-temp">74°C</span><span class="tag-time">24 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Osobuco al Malbec Premium</span>
+          <div class="recipe-tags"><span class="tag-temp">80°C</span><span class="tag-time">18 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Goulash de Ternera</span>
+          <div class="recipe-tags"><span class="tag-temp">82°C</span><span class="tag-time">12 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Pechuga de Pollo con Vegetales</span>
+          <div class="recipe-tags"><span class="tag-temp">63.5°C</span><span class="tag-time">2 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Ribs de Cerdo BBQ Master</span>
+          <div class="recipe-tags"><span class="tag-temp">70°C</span><span class="tag-time">12 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Pollo al Verdeo con Salsa Cremosa</span>
+          <div class="recipe-tags"><span class="tag-temp">74°C</span><span class="tag-time">4 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Entraña al Chimichurri</span>
+          <div class="recipe-tags"><span class="tag-temp">54°C</span><span class="tag-time">3 hs</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Guiso de Lentejas de Bodegón</span>
+          <div class="recipe-tags"><span class="tag-temp">Olla</span><span class="tag-time">90 min</span></div>
+        </div>
+        <div class="recipe-item">
+          <span class="recipe-name">Chutney de Tomate y Manzana</span>
+          <div class="recipe-tags"><span class="tag-temp">Conserva</span><span class="tag-time">60 min</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- ══════ FOOTER ══════ -->
-<footer>
-  <div class="footer-logo">VACÍO<span>PRO</span></div>
-  <p>© 2026 · Guía de Emprendimiento Gastronómico · Todos los derechos reservados</p>
-  <p style="font-size:0.68rem; opacity:0.4; margin-top:0.3rem;">Los testimonios representan experiencias individuales. Los resultados pueden variar.</p>
-</footer>
+  <!-- ══════ TABLA COMPARATIVA ══════ -->
+  <section class="tabla-section">
+    <div class="tabla-inner">
+      <div class="section-tag text-center reveal">LOS NÚMEROS NO MIENTEN</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Lo que tardás ahora<br><em>vs. lo que tardás con el
+          sistema</em></h2>
+      <table class="comp-table reveal reveal-delay-2">
+        <thead>
+          <tr>
+            <th>Tarea</th>
+            <th class="th-sin">❌ Sin sistema</th>
+            <th class="th-con">✅ Con Vacío + Sous Vide</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Producir 10 porciones de bondiola</td>
+            <td class="td-sin">3-4 horas activas</td>
+            <td class="td-con">30 min + 24h sin vigilar</td>
+          </tr>
+          <tr>
+            <td>Vida útil del producto cocido</td>
+            <td class="td-sin">2-3 días en heladera</td>
+            <td class="td-con">21-30 días refrigerado</td>
+          </tr>
+          <tr>
+            <td>Distribución al cliente</td>
+            <td class="td-sin">Inmediata o se pierde</td>
+            <td class="td-con">Hasta 6 meses en freezer</td>
+          </tr>
+          <tr>
+            <td>Pérdida por sobreproducción</td>
+            <td class="td-sin">Alta (30-40%)</td>
+            <td class="td-con">Casi cero</td>
+          </tr>
+          <tr>
+            <td>Ticket promedio por porción</td>
+            <td class="td-sin">Bajo (precio de comida común)</td>
+            <td class="td-con">2x-3x (categoría premium)</td>
+          </tr>
+          <tr>
+            <td>Tiempo para llegar al cliente</td>
+            <td class="td-sin">Cocción fresca: 2-3 horas</td>
+            <td class="td-con">Regeneración: 15 minutos</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-<script src="js.js"></script>
+  <!-- ══════ PARA QUIEN ══════ -->
+  <section class="para-quien">
+    <div class="para-quien-inner">
+      <div class="section-tag text-center reveal">¿ESTE SISTEMA ES PARA VOS?</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Si querés <em>ordenar, mejorar o monetizar</em><br>lo que
+        hacés en cocina..</h2>
+      <div class="quien-grid reveal reveal-delay-2">
+        <div class="quien-card">
+          <div class="quien-ico">🚀</div>
+          <h4>Querés empezar pero no sabés por dónde</h4>
+          <p>Tenés la idea, pero te falta un sistema claro para pasar a la acción sin perder tiempo ni cometer errores
+            básicos.</p>
+        </div>
+        <div class="quien-card">
+          <div class="quien-ico">🍖</div>
+          <h4>Querés mejorar la calidad de lo que ofrecés</h4>
+          <p>Buscás resultados más consistentes, mejor presentación y un diferencial real que se note en el producto
+            final.</p>
+        </div>
+        <div class="quien-card">
+          <div class="quien-ico">💰</div>
+          <h4>Querés generar o sumar ingresos</h4>
+          <p>Ya sea como ingreso principal o complemento, necesitás una forma ordenada y replicable de producir y
+            vender.</p>
+        </div>
+        <div class="quien-card">
+          <div class="quien-ico">📦</div>
+          <h4>Querés escalar lo que ya hacés</h4>
+          <p>Si ya vendés, este sistema te ayuda a mejorar procesos, optimizar tiempos y profesionalizar tu producción.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ TESTIMONIOS ══════ -->
+  <section class="testi">
+    <div class="testi-inner">
+      <div class="section-tag text-center reveal">RESULTADOS REALES</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Quienes ya lo <em>aplicaron</em></h2>
+      <div class="testi-grid reveal reveal-delay-2">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Empecé con un roner de USD 100 y una envasadora de succión. En el segundo mes ya había recuperado la
+            inversión. El módulo de costos me cambió la cabeza: estaba cobrando menos de la mitad de lo que debía."</p>
+          <div class="testi-who">
+            <div class="testi-av">MR</div>
+            <div><strong>Marcelo R.</strong><br><small>Emprendedor gastronómico · Córdoba</small></div>
+          </div>
+        </div>
+        <div class="testi-card featured">
+          <div class="featured-badge">⭐ MÁS POPULAR</div>
+          <div class="testi-stars">★★★★★</div>
+          <p>"La ficha técnica del osobuco al Malbec sola vale el precio del libro. Tengo 15 clientes fijos que lo piden
+            cada semana. La regeneración en sartén que explica el módulo 4 los dejó boquiabiertos."</p>
+          <div class="testi-who">
+            <div class="testi-av">SL</div>
+            <div><strong>Sandra L.</strong><br><small>Cocinera artesanal · Buenos Aires</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Trabajaba 12 horas para producir lo que ahora produzco en 3. El roner cocina de noche, yo envaso a la
+            mañana. El módulo de seguridad alimentaria me dio la confianza para tramitar el PUPA y vender sin miedo."
+          </p>
+          <div class="testi-who">
+            <div class="testi-av">JP</div>
+            <div><strong>Juan P.</strong><br><small>Productor artesanal · Pinamar</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ BONUS ══════ -->
+  <section class="bonus">
+    <div class="bonus-inner">
+      <div class="section-tag text-center reveal">SIN COSTO ADICIONAL</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Los bonus que <em>completan el sistema</em></h2>
+      <div class="bonus-grid">
+        <div class="bonus-card reveal">
+          <div class="bonus-ico">📊</div>
+          <div class="bonus-label">BONUS 1</div>
+          <h4>Tabla completa de temperaturas y tiempos sous vide</h4>
+          <p>Referencia rápida con todas las proteínas: desde entraña a 54°C hasta muslo de pollo a 74°C. Imprimible.
+          </p>
+        </div>
+        <div class="bonus-card reveal reveal-delay-1">
+          <div class="bonus-ico">💰</div>
+          <div class="bonus-label">BONUS 2</div>
+          <h4>Planilla de costeo por lote (estructura lista)</h4>
+          <p>La fórmula completa: costo directo, indirecto, mano de obra y precio de venta por canal.</p>
+        </div>
+        <div class="bonus-card reveal reveal-delay-2">
+          <div class="bonus-ico">🏷️</div>
+          <div class="bonus-label">BONUS 3</div>
+          <h4>Texto modelo para etiqueta de regeneración</h4>
+          <p>Redactado, revisado y listo para copiar. Cumple con los requisitos de SENASA/ANMAT.</p>
+        </div>
+        <div class="bonus-card reveal">
+          <div class="bonus-ico">📚</div>
+          <div class="bonus-label">BONUS 4</div>
+          <h4>10 libros de cocina gratis</h4>
+          <p>Charcutería, control de costos, Le Cordon Bleu, Cocina Molecular, Cocina China, Panes del mundo y más.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ PRECIO ══════ -->
+  <section class="precio" id="precio">
+    <div class="precio-inner">
+      <div class="precio-left reveal">
+        <div class="section-tag">INVERSIÓN</div>
+        <h2 class="section-h2">Un pago único.<br><em>Acceso para siempre.</em></h2>
+        <div class="countdown-box">
+          <div class="cd-label">⏳ PRECIO SUBE EN:</div>
+          <div class="cd-timer">
+            <div class="cd-unit"><span id="cd-h">00</span><small>HRS</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-unit"><span id="cd-m">23</span><small>MIN</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-unit"><span id="cd-s">47</span><small>SEG</small></div>
+          </div>
+        </div>
+        <ul class="incluye">
+          <li><span class="chk">✦</span> 6 módulos completos en PDF</li>
+          <li><span class="chk">✦</span> 9 fichas técnicas de recetas con temperaturas y tiempos</li>
+          <li><span class="chk">✦</span> BONO 1 — Libro de charcutería</li>
+          <li><span class="chk">✦</span> BONO 2 — Control de costos de alimentos y bebidas</li>
+          <li><span class="chk">✦</span> BONO 3 — El arte culinario para el profesional</li>
+          <li><span class="chk">✦</span> BONO 4 — Le Cordon Bleu</li>
+          <li><span class="chk">✦</span> BONO 5 — Cocina Molecular</li>
+          <li><span class="chk">✦</span> BONO 6 — El arte de la decoración en la comida</li>
+          <li><span class="chk">✦</span> BONO 7 — Arroces del mundo</li>
+          <li><span class="chk">✦</span> BONO 8 — Alimentación Vegana</li>
+          <li><span class="chk">✦</span> BONO 9 — Cocina China</li>
+          <li><span class="chk">✦</span> BONO 10 — Panes del mundo</li>
+        </ul>
+      </div>
+
+      <div class="precio-card reveal reveal-delay-1">
+        <div class="card-top">
+          <div class="card-eyebrow">Vacío + Sous Vide como Salida Laboral · Edición 2026</div>
+          <div class="price-was">Valor regular: <s>USD 45</s></div>
+          <div class="price-now">
+            <span class="price-currency">USD</span>
+            <span class="price-amount">16</span>
+          </div>
+          <div class="price-note">Pago único · Sin suscripción · Descarga inmediata</div>
+          <div class="discount-badge">AHORRÁS USD 29 — 64% OFF</div>
+        </div>
+        <div class="card-body">
+          <a href="https://pay.hotmart.com/L105398930J" target="_blank" class="btn-buy">
+            COMPRAR AHORA — USD 16
+          </a>
+          <div class="trust-row">
+            <span>🔒 Pago seguro</span>
+            <span>⚡ Acceso inmediato</span>
+            <span>🛡️ Garantía 7 días</span>
+          </div>
+          <div class="guarantee-box">
+            <div class="g-icon">🛡️</div>
+            <div>
+              <strong>Garantía 7 Días sin preguntas</strong>
+              <p>Si dentro de los 7 días sentís que no te aportó valor, te devolvemos el dinero. Sin burocracia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ FAQ ══════ -->
+  <section class="faq">
+    <div class="faq-inner">
+      <div class="section-tag text-center reveal">PREGUNTAS FRECUENTES</div>
+      <h2 class="section-h2 text-center reveal reveal-delay-1">Lo que necesitás saber<br><em>antes de comprar</em></h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿Necesito experiencia previa en cocina profesional?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">No. El libro está escrito para alguien que sabe cocinar bien en casa pero nunca trabajó
+            en gastronomía comercial. Los protocolos están explicados paso a paso, con el "por qué" de cada uno, no solo
+            el "cómo".</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿Cuánto necesito invertir para empezar?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">El Módulo 1 incluye un Kit de Inicio con presupuesto optimizado. Aprenderás a seleccionar
+            el equipamiento necesario con una inversión mínima escalable: roner de inmersión, envasadora básica y
+            accesorios esenciales priorizando la mejor relación calidad-precio.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿Puedo hacer esto desde mi cocina de casa?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">Sí. El sistema está pensado para producción a pequeña escala desde una cocina doméstica.
+            Incluye un modelo práctico para empezar con bajo equipamiento, y cómo adaptar la producción al registro PUPA
+            en Argentina.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿Funciona para cualquier país o solo en Argentina?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">Sí, funciona a nivel global. Las técnicas de cocción, envasado y conservación son
+            universales. Lo que cambia es la regulación sanitaria de cada país — el libro te da la base técnica y
+            operativa para que la adaptes donde estés.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿Cómo recibo el material después de comprar?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">Inmediatamente después de la compra recibís un email de Hotmart con el link de descarga
+            del PDF. A los 8 días recibís los 10 bonos. Podés guardarlo en tu computadora, tablet o celular y acceder
+            cuando quieras, sin internet.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn" onclick="toggleFaq(this)">
+            ¿El precio va a subir?
+            <span class="faq-ico">+</span>
+          </button>
+          <div class="faq-ans">El precio de lanzamiento de USD 16 es temporal. Una vez superadas las primeras 100
+            copias, el precio sube al valor regular de USD 45. Comprando hoy bloqueás el precio más bajo y recibís todas
+            las actualizaciones futuras sin costo adicional.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ FINAL CTA ══════ -->
+  <section class="final-cta">
+    <div class="final-inner reveal">
+      <div class="section-tag text-center">EL MOMENTO ES AHORA</div>
+      <h2 class="final-h2">El roner cocina<br><em>mientras vos dormís.</em></h2>
+      <p>Cada noche que el baño termostatado trabaja solo, tu producto gana valor. Cada bolsa bien envasada es un
+        producto con 30 días de vida útil.</p>
+      <a href="https://pay.hotmart.com/L105398930J" target="_blank" class="btn-fire btn-fire-xl">
+        <span class="btn-fire-text">QUIERO EL SISTEMA — USD 16 ✦</span>
+        <span class="btn-fire-sub">✓ Acceso inmediato &nbsp;·&nbsp; ✓ Garantía 7 días &nbsp;·&nbsp; ✓ Precio de
+          lanzamiento</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════ FOOTER ══════ -->
+  <footer>
+    <div class="footer-logo">VACÍO<span>PRO</span></div>
+    <p>© 2026 · Guía de Emprendimiento Gastronómico · Todos los derechos reservados</p>
+    <p style="font-size:0.68rem; opacity:0.4; margin-top:0.3rem;">Los testimonios representan experiencias individuales.
+      Los resultados pueden variar.</p>
+  </footer>
+
+  <script src="js.js"></script>
 </body>
+
 </html>
